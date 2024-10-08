@@ -11,7 +11,7 @@ const User = require("../../models/user.model");
 const JWT_EXPIRATION = require("../../../config/vars").jwtExpirationInterval;
 
 /**
- * root level hooks--
+ * root level hooks with --
  */
 
 async function format(user) {
