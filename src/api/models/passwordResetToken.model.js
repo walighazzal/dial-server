@@ -27,7 +27,7 @@ const passwordResetTokenSchema = new mongoose.Schema({
 
 passwordResetTokenSchema.statics = {
   /**
-   * Generate a reset token object and saves it into the database
+   * Generate a reset token object and saves it into the database surely
    *
    * @param {User} user
    * @returns {ResetToken}
